@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: 'Source Sans Pro' , sans-serif;
+    height: 125vh;
+    /* background-image: url('images/initiation_epsilon_gamma.png'); */
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+  padding: 150px 5% 170px;
+  background-image: url("https://cooperjones13.github.io/etagamma/images/initiation_epsilon_gamma.png");
+  background-position: top;
+  background-size: cover;
+  text-align: left;
+  color: white;
+}
+
+header h1{
+  font-size: 124px;
+  padding: 20px 0;
+  margin: 0;
+}
+
+header p{
+  margin: 0;
+  font-size: 48px;
+  font-weight: lighter;
+  width: 70%;
+}
+
+nav{
+  background-color: #913333;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-bottom: 1px white solid;
+  margin: 0;
+  padding: 0 2%;
+}
+
+nav img{
+  display: inline-block;
+  float: left;
+  height: 75px;
+}
+nav h1{
+  display: inline-block;
+  float: left;
+  font-size: 32px;
+  margin-bottom:0;
+  margin-top: 10px;
+  padding: 7px 20px;
+}
+
+nav a{
+  color: white;
+}
+
+nav .nav-link {
+  float: right;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 25px 20px;
+  text-decoration: nONE;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav a:hover {
+  color: #FFCC33;
+}
+
+main{
+  color: white;
+  background-color: white;
+  text-align: center;
+  font-size: 56px;
+}
+
+h2{
+  margin: 0;
+  padding: 20px;
+  color: white;
+  background-color: #913333;
+  font-size: 24px;
+}
