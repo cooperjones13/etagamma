@@ -88,10 +88,10 @@ main{
 }
 
 main #pillars .col img{
-  padding-top: 15px;
-  max-width:100%;
+  padding: 5%;
+  max-width:90%;
   height: auto;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 main #history  img{
