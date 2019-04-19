@@ -1,5 +1,5 @@
 
-var requestURL = 'https://github.com/cooperjones13/etagamma/blob/master/members.json';
+var requestURL = 'https://cooperjones13.github.io/etagamma/members.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 
@@ -9,7 +9,7 @@ request.send();
 request.onload = function() {
   var members = request.response;
   var i;
-  for (i = 0; i < members.length; i++) {
-    console.log(members["members"][i])
+  for (i = 0; i < members["members"].length; i++) {
+    console.log(members["members"][i]);
   }
 }
