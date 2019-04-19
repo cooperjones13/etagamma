@@ -10,17 +10,17 @@ body {
 }
 
 header{
-  padding: 150px 5% 170px;
+  padding: 1% 5% 1%;
   background-image: url("https://cooperjones13.github.io/etagamma/images/initiation_epsilon_gamma.png");
   background-position: top;
   background-size: cover;
-  text-align: left;
+  text-align: center;
   color: white;
-  text-shadow: #913333 0 0 100px;
+  /* text-shadow: #913333 0 0 100px; */
 }
 
 header h1{
-  font-size: 124px;
+  font-size: 150px;
   padding: 20px 0;
   margin: 0;
 }
@@ -94,4 +94,40 @@ h2{
   color: white;
   background-color: #913333;
   font-size: 24px;
+}
+
+section{
+  padding: 5% 5%;
+}
+
+.member{
+  width: 15%;
+  height: 250px;
+  background-color: #CCC;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.member:hover{
+  background-color: #BBB;
+}
+
+.member img{
+  width: 90%;
+  border-radius: 50%;
+}
+
+.member h3{
+  font-size: 24px;
+  color: #913333;
+  margin: 1% 0;
+}
+
+.member p{
+  font-size: 18px;
+  color: white;
+  margin: 1% 0;
 }
