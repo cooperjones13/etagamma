@@ -16,6 +16,7 @@ header{
   background-size: cover;
   text-align: left;
   color: white;
+  text-shadow: #913333 0 0 100px;
 }
 
 header h1{
@@ -29,6 +30,7 @@ header p{
   font-size: 48px;
   font-weight: lighter;
   width: 70%;
+  text-shadow: #913333 0 0 10px;
 }
 
 nav{
