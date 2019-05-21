@@ -1,7 +1,7 @@
-# thetatau-etagamma-site
+# Theta Tau Eta Gamma Chapter Homepage
 https://cooperjones13.github.io/etagamma/
 
-This is the temporary home for the Eta Gamma Chapter of Theta Tau's website.
+This is the temporary home for the Eta Gamma Chapter of Theta Tau's website while it is in development
 
 # What is Theta Tau?
 Theta Tau is the oldest, largest, and foremost Fraternity for Engineers. Since its founding at the University of Minnesota in 1904, over 40,000 have been initiated over the years. With emphasis on quality and a strong fraternal bond, the Fraternity has chapters only at ABET accredited schools and limits the number of student members in any one of its chapters across the nation.
