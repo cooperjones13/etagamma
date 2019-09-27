@@ -123,12 +123,13 @@ section{
 
 #members .member{
   /* height: 75px; */
-  width: 100px;
-  height: 100px;
-  border-radius: 10%;
+  background-color: #AAA;
+  width: 250px;
+  height: 75px;
+  border-radius: 20%;
 }
 #members .member h3{
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
@@ -143,7 +144,7 @@ section{
 }
 
 .member h3{
-  font-size: 18px;
+  font-size: 24px;
   color: #913333;
   margin: 1% 0;
 }

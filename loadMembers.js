@@ -275,6 +275,6 @@ var members = JSON.parse(`
       var roll = members[i]["Roll"];
       var ch = members[i]["Chapter"]
 
-      $( "#members" ).append( $( "<div class = 'member'><h3>"+name+"</h3> <p>"+ch+" " + roll + "</p> </div>" ) );
+      $( "#members" ).append( $( "<div class = 'member'><h3>"+name+"</h3> <p>"+ch+" <em>" + roll + "</em></p> </div>" ) );
     }
   });
