@@ -2,247 +2,268 @@ var members = JSON.parse(`
   [
  {
    "Name": "Sarah Elizabeth Walworth",
-   "Roll": 107
+   "Roll": 107,
+   "Chapter": "&Phi;&Gamma;"
  },
  {
    "Name": "Trevor Chinen Dent",
-   "Roll": 217
+   "Roll": 217,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Samuel Ian Solondz",
-   "Roll": 235
+   "Roll": 235,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Ashley Nicole Montalvo",
-   "Roll": 241
- },
- {
-   "Name": "Alex Thomas Urbanski",
-   "Roll": 247
+   "Roll": 241,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Cooper Douglas Jones",
-   "Roll": 254
+   "Roll": 254,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Charles Henry MacCraiger",
-   "Roll": 255
+   "Roll": 255,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Alex Chinen Dent",
-   "Roll": 257
+   "Roll": 257,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Madison Ryan Heath",
-   "Roll": 258
+   "Roll": 258,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Pamela Anne Dahlberg",
-   "Roll": 259
+   "Roll": 259,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Suchita Lulla",
-   "Roll": 264
+   "Roll": 264,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Alexandra Nieves Ferguson",
-   "Roll": 266
- },
- {
-   "Name": "Kelsea Elaine Keenan",
-   "Roll": 268
+   "Roll": 266,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Arash Yousefzadeh",
-   "Roll": 270
+   "Roll": 270,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Mitchell Jett Spencer",
-   "Roll": 271
+   "Roll": 271,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Madeline Wilkes LaMee",
-   "Roll": 272
- },
- {
-   "Name": "Sarah Ann Woronoff",
-   "Roll": 274
+   "Roll": 272,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Garrett William Hempy",
-   "Roll": 275
+   "Roll": 275,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Kevin Gordon Vandeveld",
-   "Roll": 276
+   "Roll": 276,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Arthur Caio de Oliveira Gajdys",
-   "Roll": 277
+   "Roll": 277,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Michael James Sciarabba",
-   "Roll": 278
- },
- {
-   "Name": "Talley Anne Cain",
-   "Roll": 279
+   "Roll": 278,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "McKayla Taylor Vlasity",
-   "Roll": 280
+   "Roll": 280,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Divya Bhagya Bandreddi",
-   "Roll": 281
+   "Roll": 281,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
-   "Name": "Connor Shamwow Killoran",
-   "Roll": 282
+   "Name": "Connor Shannon Killoran",
+   "Roll": 282,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Jonathan Philip Cohen",
-   "Roll": 283
+   "Roll": 283,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Serena Rose Evans-Lutterodt",
-   "Roll": 284
+   "Roll": 284,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Ryan Kendall Hughes",
-   "Roll": 285
+   "Roll": 285,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Ian Richard Claras",
-   "Roll": 286
+   "Roll": 286,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Cameron Elle Welyki",
-   "Roll": 287
+   "Roll": 287,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Clara Ann Rachel Wilson",
-   "Roll": 288
+   "Roll": 288,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Benjamin Luke Beaumont",
-   "Roll": 289
+   "Roll": 289,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Michael Ahmad Lajevardi",
-   "Roll": 291
- },
- {
-   "Name": "Evangeline Heon Frechette",
-   "Roll": 292
+   "Roll": 291,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Colin Mackenzie Claytor",
-   "Roll": 293
+   "Roll": 293,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Kelsey Ann Lynch",
-   "Roll": 294
+   "Roll": 294,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Richard Huu Nyguen",
-   "Roll": 295
+   "Roll": 295,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Grace Hyde McCall",
-   "Roll": 296
- },
- {
-   "Name": "Yazen Sus",
-   "Roll": 297
+   "Roll": 296,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Avery Helen Ostrand",
-   "Roll": 298
+   "Roll": 298,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Michel Francois Monnet",
-   "Roll": 299
+   "Roll": 299,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Kimberly Elizabeth Bower",
-   "Roll": 300
+   "Roll": 300,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Kaitlyn Elizabeth Olson",
-   "Roll": 301
+   "Roll": 301,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Erin Kate Bobby",
-   "Roll": 302
+   "Roll": 302,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Mohamed El Amine Aichiouene",
-   "Roll": 303
- },
- {
-   "Name": "Brayden King Cadwallader",
-   "Roll": 304
+   "Roll": 303,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Hayley Marie Kinlaw",
-   "Roll": 305
+   "Roll": 305,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Star Dora Fassler",
-   "Roll": 306
- },
- {
-   "Name": "Emily Anne Jordan",
-   "Roll": 307
+   "Roll": 306,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Angelina Grace Chavez",
-   "Roll": 308
+   "Roll": 308,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Joseph Patrick Rooney",
-   "Roll": 309
+   "Roll": 309,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Michael George Gigiolio",
-   "Roll": 310
+   "Roll": 310,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "William George Thomas Platt",
-   "Roll": 311
+   "Roll": 311,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Jason Dennis Herron",
-   "Roll": 312
+   "Roll": 312,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Devin Willard Sharpe",
-   "Roll": 313
+   "Roll": 313,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Rosie Pearl Stewart",
-   "Roll": 314
+   "Roll": 314,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Bryan Loyd Thomas Harant",
-   "Roll": 315
+   "Roll": 315,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Daniel McLucas Crook",
-   "Roll": 316
+   "Roll": 316,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Benjamin Jacob Simon",
-   "Roll": 317
+   "Roll": 317,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Andreas Peter Brecl",
-   "Roll": 318
+   "Roll": 318,
+   "Chapter": "&Eta;&Gamma;"
  },
  {
    "Name": "Hannah Christine Newton",
-   "Roll": 319
+   "Roll": 319,
+   "Chapter": "&Eta;&Gamma;"
  }
 ]
   `);
@@ -252,7 +273,8 @@ var members = JSON.parse(`
     for(i;i < Object.keys(members).length; i++){
       var name = members[i]["Name"];
       var roll = members[i]["Roll"];
+      var ch = members[i]["Chapter"]
 
-      $( "#members" ).append( $( "<div class = 'member'><h3>"+name+"</h3> <p>" + roll + "</p> </div>" ) );
+      $( "#members" ).append( $( "<div class = 'member'><h3>"+name+"</h3> <p>"+ch+" " + roll + "</p> </div>" ) );
     }
   });

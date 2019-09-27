@@ -22,7 +22,12 @@ header h1{
   font-size: 124px;
   padding: 20px 0;
   margin: 0;
-  text-shadow: #913333 0 0 200px;
+  text-shadow:
+		-2px -2px 0 #913333,
+		2px -2px 0 #913333,
+		-2px 2px 0 #913333,
+		2px 2px 0 #913333;
+  /* -webkit-text-stroke: .25px #913333; */
 }
 
 header p{
@@ -30,6 +35,11 @@ header p{
   font-size: 48px;
   font-weight: lighter;
   width: 70%;
+  text-shadow:
+		-1px -1px 0 #913333,
+		1px -1px 0 #913333,
+		-1px 1px 0 #913333,
+		1px 1px 0 #913333;
 }
 
 nav{
