@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     margin-top: 50px;
@@ -10,7 +11,7 @@ body {
 }
 
 header{
-  padding: 10% 0% 10%;
+  padding: 14% 0% 14%;
   background-image: url("https://cooperjones13.github.io/etagamma/images/initiation_epsilon_gamma.jpg");
   background-position: center;
   background-size: cover;
@@ -40,54 +41,6 @@ header p{
 		1px -1px 0 #913333,
 		-1px 1px 0 #913333,
 		1px 1px 0 #913333;
-}
-
-nav{
-  background-color: #913333;
-  color: white;
-  text-decoration: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  border-bottom: 1px white solid;
-  margin: 0;
-  padding: 0 2%;
-}
-
-nav img{
-  display: inline-block;
-  float: left;
-  height: 75px;
-}
-nav h1{
-  display: inline-block;
-  float: left;
-  font-size: 32px;
-  margin-bottom:0;
-  margin-top: 10px;
-  padding: 7px 20px;
-}
-
-nav a{
-  color: white;
-}
-
-nav .nav-link {
-  float: right;
-  display: inline-block;
-  color: white;
-  text-align: center;
-  font-weight: 200;
-  font-size: 20px;
-  padding: 25px 20px;
-  text-decoration: nONE;
-}
-
-/* Change the link color to #111 (black) on hover */
-nav a:hover {
-  color: #FFCC33;
 }
 
 main{

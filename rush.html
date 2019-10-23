@@ -7,6 +7,7 @@
 	<meta name="author" content="Cooper Jones" />
 	<meta name="description" content="The Eta Gamma Chapter of Theta Tau Fraternity at The University of Colorado Boulder" />
 	<link rel="stylesheet" type="text/css" href="rush.css" />
+	<link rel="stylesheet" type="text/css" href="navbar.css" />
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
@@ -14,13 +15,35 @@
 </head>
 <body>
 		<header>
-      <nav>
+			<nav>
 				<img src="images/thetatauwhite.png" alt="Theta Tau - Eta Gamma Chapter"></img>
-				<a href="index.html"><h1>ΘΤ | Eta Gamma</h1></a>
-				<a class = "nav-link" href="rush.html">Rush</a>
-				<a class = "nav-link" href="#">Alumni</a>
-				<a class = "nav-link" href="members.html">Members</a>
-				<a class = "nav-link" href="index.html#about">About</a>
+				<a href="index.html"><h1>Theta Tau - CU Boulder</h1></a>
+				<div class="dropdown">
+				  <a href="rush.html"><button class="dropbtn">Rush</button></a>
+				  <div class="dropdown-content">
+				    <a href="rush.html">Info</a>
+				    <a href="#">FAQ</a>
+				    <a href="#">Apply</a>
+				  </div>
+				</div>
+				<div class="dropdown">
+				  <button class="dropbtn">Brothers</button>
+				  <div class="dropdown-content">
+				    <a href="members.html">Actives</a>
+				    <a href="#">Alumni</a>
+				    <a href="#">Mercury Council</a>
+				  </div>
+				</div>
+				<div class="dropdown">
+				  <button class="dropbtn">About</button>
+				  <div class="dropdown-content">
+				    <a href="index.html#about">History</a>
+				    <a href="#">Pillars</a>
+				  </div>
+				</div>
+				<div class="dropdown">
+				  <a href="javascript:window.location.href=window.location.href"><button class="dropbtn">Home</button></a>
+				</div>
       </nav>
 			<h1>Rush</h1>
 			<p>Join a network of more than 250 local alumni and over 40,000 engineers nationwide</p>
