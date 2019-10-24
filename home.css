@@ -1,7 +1,6 @@
 body {
     margin: 0;
     margin-top: 50px;
-    font-family: 'Lato', sans-serif;
     height: 125vh;
     /* background-image: url('images/initiation_epsilon_gamma.png'); */
     background-color: #f1f1f1;
@@ -11,7 +10,11 @@ body {
 
 header{
   padding: 150px 5% 170px;
-  background-image: url("https://cooperjones13.github.io/etagamma/images/orange.JPG");
+  letter-spacing: .1em;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url("https://cooperjones13.github.io/etagamma/images/orange.JPG");
   background-position: top;
   background-size: cover;
   text-align: left;
@@ -19,36 +22,27 @@ header{
 }
 
 header h1{
+  font-weight: 800;
   font-size: 124px;
   padding: 20px 0;
   margin: 0;
-  text-shadow:
-		-2px -2px 0 #913333,
-		2px -2px 0 #913333,
-		-2px 2px 0 #913333,
-		2px 2px 0 #913333;
-  /* -webkit-text-stroke: .25px #913333; */
 }
 
 header p{
   margin: 0;
   font-size: 48px;
-  font-weight: lighter;
   width: 70%;
-  text-shadow:
-		-1px -1px 0 #913333,
-		1px -1px 0 #913333,
-		-1px 1px 0 #913333,
-		1px 1px 0 #913333;
 }
 
 main{
-  color: white;
+  font-weight: 100;
+  color: #451818;
   background-color: white;
   text-align: center;
   font-size: 56px;
 }
 main #pillars{
+  font-weight: 700;
   padding: 0 4%
 }
 
@@ -108,6 +102,8 @@ main .col{
 h2{
   margin: 0;
   padding: 20px;
+  font-weight: 800;
+  letter-spacing: .05em;
   color: white;
   background-color: #913333;
   font-size: 24px;

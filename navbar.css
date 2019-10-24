@@ -1,3 +1,7 @@
+*{
+  font-family: 'Noto Serif SC', serif;
+}
+
 nav{
   background-color: #913333;
   color: white;
@@ -7,7 +11,7 @@ nav{
   left: 0;
   right: 0;
   text-align: center;
-  border-bottom: 1px #f1f1f1 solid;
+  border-bottom: 3px #f1f1f1 solid;
   margin: 0;
   padding: 0 7%;
 }
@@ -18,23 +22,20 @@ nav img{
   height: 75px;
 }
 nav h1{
+  color:white;
   display: inline-block;
   float: left;
   font-size: 32px;
-  margin-bottom:0;
-  margin-top: 10px;
-  padding: 7px 20px;
+  padding: 12px 20px 17px 20px;
+  margin: auto;
 }
 
 nav h1:hover{
-  color: #FFCC33;
-}
-
-nav a{
-  color: white;
+  color: #FFDF80;
 }
 
 .dropbtn {
+  text-align: center;
   background-color: #913333;
   color: white;
   padding: 16px;
@@ -44,10 +45,10 @@ nav a{
 }
 
 .dropdown {
+  text-align: center;
   float: right;
   display: inline-block;
   color: white;
-  text-align: left;
   font-weight: 200;
   font-size: 20px;
   padding: 0px 10px;
@@ -55,6 +56,7 @@ nav a{
 }
 
 .dropdown-content {
+  /* text-align: left; */
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -64,6 +66,7 @@ nav a{
 }
 
 .dropdown-content a {
+  text-align: left;
   color: #913333;
   padding: 12px 16px;
   text-decoration: none;
@@ -75,3 +78,65 @@ nav a{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #BF4343;}
+
+#logoAndName{
+  float: left;
+  display:inline-block;
+}
+
+@media screen and (max-width: 1127px) {
+  #logoAndName{
+    text-align: center;
+    float:none;
+    width: 100%;
+  }
+  #logoAndName h1{
+    float: none;
+    padding: 5px;
+  }
+  #logoAndName img{
+   display:none;
+  }
+
+  .dropdown {
+    text-align: center;
+    float: right;
+    padding:0;
+    width: 24%;
+    display: inline-block;
+  }
+  .dropbtn{
+    padding: auto 2%;
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #logoAndName h1{
+    font-size: 24px;
+  }
+  #logoAndName img{
+   display:none;
+  }
+
+  .dropdown {
+    width: 33.33333%;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .dropbtn{
+    height: auto;
+    width: auto;
+  }
+  #homeBtn{
+    display: none;
+  }
+
+  #menuBtns{
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+}
