@@ -8,8 +8,12 @@ body {
     background-position: center;
 }
 
+
+
 header{
-  padding: 150px 5% 170px;
+  width: 100%;
+  display: block;
+  padding: 150px 0 170px;
   letter-spacing: .1em;
   background: linear-gradient(
       rgba(0, 0, 0, 0.3),
@@ -17,15 +21,22 @@ header{
     ), url("https://cooperjones13.github.io/etagamma/images/orange.JPG");
   background-position: top;
   background-size: cover;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 
+header .container{
+  width: 90%;
+  text-align: left;
+
+}
+
 header h1{
-  font-weight: 800;
+  font-weight: 9999;
   font-size: 124px;
   padding: 20px 0;
   margin: 0;
+  letter-spacing: .05em;
 }
 
 header p{
@@ -57,9 +68,9 @@ main .history  img{
   display: inline-block;
   padding-top: 15px;
   padding-left: 5%;
-  width:auto;
   height: 10%;
   max-height: 520px;
+  max-width: 100%;
   float:left;
 }
 
@@ -107,4 +118,20 @@ h2{
   color: white;
   background-color: #913333;
   font-size: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+@media screen and (max-width: 600px) {
+  main #pillars .col img{
+    display: none;
+  }
+  main .col{
+    font-size: 12px;
+  }
+  main .history  img{
+    display: none;
+  }
+
 }

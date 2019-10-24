@@ -12,23 +12,20 @@ body {
 
 header{
   padding: 14% 0% 14%;
-  background-image: url("https://cooperjones13.github.io/etagamma/images/initiation_epsilon_gamma.jpg");
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url("https://cooperjones13.github.io/etagamma/images/initiation_epsilon_gamma.jpg");
   background-position: center;
   background-size: cover;
   text-align: center;
   color: white;
-  text-shadow: #913333 0 0 200px;
 }
 
 header h1{
   font-size: 150px;
   padding: 20px 0;
   margin: 0;
-  text-shadow:
-		-2px -2px 0 #913333,
-		2px -2px 0 #913333,
-		-2px 2px 0 #913333,
-		2px 2px 0 #913333;
 }
 
 header p{
