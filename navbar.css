@@ -2,20 +2,18 @@
   font-family: 'Noto Serif SC', serif;
 }
 
+body {
+    margin: 0;
+  }
+
 p{
   font-family: 'Open Sans', serif;
-}
-
-header h1{
-  font-weight: 9999;
-  text-
 }
 
 nav{
   background-color: #913333;
   color: white;
   text-decoration: none;
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -25,26 +23,34 @@ nav{
   padding: 0;
   width: 100%;
   z-index: 10;
+  box-shadow: 0px 4px 24px 0px rgba(0,0,0,.2);
+
+  position: sticky;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
 }
 
 #logoAndName{
   float: left;
-  display: block;
-  padding: 0 0 0 5%;
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content:flex-start;
 }
 
 #logo{
-  display: inline-block;
-  float: left;
-  height: 75px;
+  height: 5em;
+  padding-right: 1em;
 }
 #name{
   color:white;
-  display: inline-block;
-  float: left;
   font-size: 32px;
-  padding: 12px 20px 17px 20px;
-  margin: auto;
 }
 
 #name h1:hover{
@@ -56,18 +62,24 @@ nav{
 }
 
 .navigation{
-  padding: 0 5% 0 0;
+  /* margin: 0 5% 0 0; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+
 }
 
 .dropbtn {
   text-align: center;
   background-color: #913333;
   color: white;
-  padding: 16px;
+  padding: 0 1em;
   font-size: 20px;
   height: 75px;
   border: none;
 }
+
 
 .navigation .dropdown {
   text-align: center;
@@ -76,11 +88,10 @@ nav{
   color: white;
   font-weight: bold;
   font-size: 20px;
-  padding: 0px 10px;
   text-decoration: none;
 }
 
-.navigation .dropdown-content {
+.dropdown-content {
   /* text-align: left; */
   display: none;
   position: absolute;
@@ -106,113 +117,138 @@ nav{
 
 
 @media screen and (max-width: 1200px) {
+
+  nav{
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
   #logoAndName{
-    text-align: center;
-    float:none;
-    width: 100%;
-    padding: 0;
+    justify-content: flex-start;
+    width: 40%;
+    padding-left: 5%;
   }
   #name{
     float: none;
-    padding: 5px;
-  }
-  #logo{
-   display:none;
   }
 
   #homeBtn{
     display: none;
   }
-  .navigation #navBtns{
-    display: inline-block;
-    padding: 0 5%;
-    width: 89.9%;
-  }
 
-  .navigation .dropdown {
-    text-align: center;
-    float: right;
-    padding:0;
-    width: 33%;
-    display: inline-block;
-  }
-  .dropbtn{
-    padding: auto 2%;
-    width: 96%;
+  .navigation{
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
+  #logoAndName{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+  }
+
   #name{
-    font-size: 24px;
-    padding: 3px 0 0 5%;
-    float:left;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 0 .5em;
+    padding: 0;
   }
   #logo{
    display:none;
   }
   #menuBtn{
-    height: 33px;
-    width: 33px;
-    margin: 6px 5% 6px 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border:none;
+    padding: .5em;
+    height: 100%;
 
-    display: inline-block;
-    float: right;
+  }
+
+  .dropdown{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+  }
+  .dropdown-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+  }
+
+  .dropdown > a{
+    color: white;
   }
 
 
-  #menuBtn svg{
-    width:100%;
-    margin: 0;
-    padding: 0;
+
+
+  .navigation{
+   display: none;
+   padding-right: 5%;
   }
-   .navigation{
-     display: none;
-   }
 
-   #nameAndLogo{
-     position: fixed;
-     margin: 0;
-     border-bottom: 2px #f1f1f1 solid;
-   }
 
-   .navigation #navBtns{
-     display: none;
-   }
+
+  .responsive{
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+  }
+
+  .responsive .dropdown{
+    display:block;
+    width: 100%;
+    border-top: 4px rgba(45, 18, 18, 0.6) solid;
+  }
+
+  .responsive button{
+   width: 100%;
+   margin: 0 .2em;
+  }
+
+  .responsive .dropdown-content {
+    /* text-align: left; */
+    display: block;
+    width: 100%;
+    position: static;
+    background-color: #f1f1f1;
+  }
 }
 
-.navigation-responsive{
-  margin-top: 45px;
-  padding: 0;
-  position: relative;
+
+
+
+
+/* HAMBURGERS MENU */
+
+.bar1, .bar2, .bar3 {
+  width: 45px;
+  height: 6px;
+  background-color: #f1f1f1;
+  transition: 0.4s;
+  border-radius: 2.5px;
 }
 
-.navigation-responsive .dropbtn{
-  height: auto;
-  padding: 8px;
+.change .bar1 {
+  -webkit-transform: translateY(14.5px) rotate(-45deg) ;
+  transform: translateY(14.5px) rotate(-45deg) ;
 }
 
-.navigation-responsive .dropdown{
-  border-bottom: 2px #f1f1f1 solid;
-  float: none;
-  text-align: center;
-  font-size: 16px;
-  display: block;
-  color: #451818;
-  margin: 0;
-  width: 100%;
-}
+.change .bar2 {opacity: 0;}
 
-.navigation-responsive .dropdown-content a{
-  border-bottom: 2px #f1f1f1 solid;
-  padding: 2px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 16px;
-  display: block;
-  color: #451818;
-  margin: 0;
-  width: 100%;
-  background-color: white;
+.change .bar3 {
+  -webkit-transform: translateY(-14.5px) rotate(45deg) ;
+  transform: translateY(-14.5px) rotate(45deg) ;
 }

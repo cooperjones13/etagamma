@@ -8,9 +8,10 @@
 	<meta name="description" content="The Eta Gamma Chapter of Theta Tau Fraternity at The University of Colorado Boulder" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-	<link href="hamburgers.min.css" rel="stylesheet">
+	<link href="hamburgers.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="navbar.css" />
 	<script src="navbar.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="home.css" />
 	<!-- <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> -->
@@ -24,14 +25,28 @@
 		<nav>
 			<div id="logoAndName">
 				<img id = "logo" src="images/thetatauwhite.png" alt="Theta Tau - Eta Gamma Chapter"></img>
-				<a href="index.html"><h1 id="name">Theta Tau - CU Boulder</h1></a>
-				<button class="hamburger hamburger--collapse" type="button">
-				  <span class="hamburger-box">
-				    <span class="hamburger-inner"></span>
-				  </span>
+				<a style="text-decoration:none" href="index.html"><h1 id="name">Theta Tau - CU Boulder</h1></a>
+				<button id="menuBtn" type="button" onclick="onMenuClick(this)">
+					<div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
 				</button>
 			</div>
 			<div class = "navigation" id="navBtns">
+
+				<div class="dropdown" id="homeBtn">
+					<a><button class="dropbtn">Home</button></a>
+				</div>
+
+				<div class="dropdown">
+					<a><button class="dropbtn">Brotherhood</button></a>
+					<div class="dropdown-content">
+						<a href="members.html">Actives</a>
+						<a href="alumni.html">Alumni</a>
+						<a href="#">Mercury Council</a>
+					</div>
+				</div>
+
 				<div class="dropdown">
 					<a><button class="dropbtn">Rush</button></a>
 					<div class="dropdown-content">
@@ -40,24 +55,15 @@
 						<a href="#">Apply</a>
 					</div>
 				</div>
+
 				<div class="dropdown">
-					<button class="dropbtn">Brothers</button>
-					<div class="dropdown-content">
-						<a href="members.html">Actives</a>
-						<a href="alumni.html">Alumni</a>
-						<a href="#">Mercury Council</a>
-					</div>
-				</div>
-				<div class="dropdown">
-					<button class="dropbtn">About</button>
+					<a><button class="dropbtn">About</button></a>
 					<div class="dropdown-content">
 						<a href="index.html#about">History</a>
 						<a href="#">Pillars</a>
 					</div>
 				</div>
-				<div class="dropdown" id="homeBtn">
-					<a href="javascript:window.location.href=window.location.href"><button class="dropbtn">Home</button></a>
-				</div>
+
 			</div>
 		</nav> <!-- Copy for easy nav building -->
 		<header>

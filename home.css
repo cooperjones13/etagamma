@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    margin-top: 50px;
     height: 125vh;
     /* background-image: url('images/initiation_epsilon_gamma.png'); */
     background-color: #f1f1f1;
@@ -13,7 +12,7 @@ body {
 header{
   width: 100%;
   display: block;
-  padding: 150px 0 170px;
+  padding: 2em 0 170px;
   letter-spacing: .1em;
   background: linear-gradient(
       rgba(0, 0, 0, 0.3),
