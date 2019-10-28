@@ -7,6 +7,9 @@ body {
     background-position: center;
 }
 
+section{
+  background-color: white;
+}
 
 
 header{
@@ -51,46 +54,75 @@ main{
   text-align: center;
   font-size: 56px;
 }
+
+main p, main ul{
+  font-size: 18px;
+  text-align: left;
+}
 main #pillars{
   font-weight: 700;
   padding: 0 4%
 }
 
-main #pillars .col img{
+main #pillars .tri-col img{
   padding: 5%;
   max-width:90%;
   height: auto;
   border-radius: 50%;
 }
 
-main .history  img{
-  display: inline-block;
-  padding-top: 15px;
-  padding-left: 5%;
-  height: 10%;
-  max-height: 520px;
-  max-width: 100%;
-  float:left;
-}
 
-main .col{
+main .tri-col{
   color: #913333;
   font-size: 24px;
-  display: inline-block;
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  width: 27%;
   max-width: 500px;
+  justify-content: flex-start;
+}
+
+#national-pics .tri-col{
+  padding: 1em 0;
+  justify-content: center;
+}
+
+#national-pics .tri-col img{
+  max-width: 90%;
+  max-height: 300px;
+  align-self: center;
+  justify-content: center;
+}
+
+.tri-col h4{
+  width: 100%;
+  height: auto;
+  align-self: flex-start;
+}
+
+.tri-col ul{
+  margin-top: 0;
+  padding-left: 1.5em;
+}
+.columns{
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  width: 90%;
+  margin: 0 5%;
 }
 
 .history{
   color:#913333;
 }
 
+
 .history p{
   font-size: 18px;
   text-align: left;
 }
 
-.history h3{
+.history h4{
   margin: 0;
   font-size: 24px;
   text-align: left;
@@ -104,12 +136,10 @@ main .col{
   padding-left: 1%;
 }
 
-#about ul{
-  font-size: 18px;
-  text-align: left;
-}
-
-h2{
+h3{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   margin: 0;
   padding: 20px;
   font-weight: 800;
@@ -121,6 +151,7 @@ h2{
 
 @media screen and (max-width: 1200px) {
 
+}
 
 @media screen and (max-width: 600px) {
   main #pillars .col img{
