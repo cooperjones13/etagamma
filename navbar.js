@@ -5,6 +5,20 @@
 // }, 300);
 window.addEventListener("resize", resize);
 
+window.addEventListener('scroll', function(e) {
+  let navBar = document.getElementsByTagName("nav")[0];
+  // navBar.style.position= $(window).scrollTop() < 300 ? 'sticky' : 'static';
+  let ypos = $(window).scrollTop();
+  if(ypos > 300){
+    navBar.style.position="relative";
+    navBar.style.top = "300px";
+  } else {
+    navBar.style.position="sticky";
+    navBar.style.top = "0px";
+  }
+
+});
+
 document.addEventListener("DOMContentLoaded",function(){
   setTimeout(function(){
     document.getElementById("name").setAttribute("style", "transition: color 1s;");
@@ -67,4 +81,10 @@ function onMenuClick(x){
       content.style.maxHeight =  content.scrollHeight + "px";
     }
   }
+}
+
+function checkVisible(elm) {
+  var rect = elm.getBoundingClientRect();
+  var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+  return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
 }
